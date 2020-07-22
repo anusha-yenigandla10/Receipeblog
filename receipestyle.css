@@ -1,0 +1,177 @@
+<style>
+	.receipe-header{
+		margin:10vh;
+		
+	
+	}
+	.heading-receipe{
+		font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 32px;
+    color: #333333;
+	}
+	.receipe-text{
+		width:50%;
+	}
+	.receipe-img2{
+		margin:5vh 1vh;
+	}
+	.receipe-ingredients{
+		
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.receipe-subtitle{
+	font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 32px;
+    color: #333333;
+}
+.ingredient1{
+	font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /*line-height: 32px;*/
+    color: #333333;
+}
+label {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #333;
+}
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+.form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #ec5d25;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.form-group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #ec5d25;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.rp-card{
+	background-color: #fff;
+	border: 1px solid #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 12px;
+	margin:2rem 4.5rem;
+	padding:2rem;
+}
+.rp-card-content{
+	display: flex;
+	margin-top: 1rem;
+}
+.black-color{
+	color: #000;
+}
+.rp{
+	margin-left: 1rem;
+}
+.orange-color{
+	color: #ec5d25;
+}
+.grey-color{
+	color: #999;
+}
+.mt-1{
+	margin-left: 0.25rem;
+}
+.num1{
+	height:30px;
+	width:30px;
+	background-color: #ec5d25;
+	color:#fff;
+	text-align: center;
+	border-radius: 4px;
+}
+.instruct1{
+	display: flex;
+	margin-top:1rem;
+	font-family: "Playfair Display";
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: #333;
+/*grid-template-columns: auto auto auto;
+grid-gap: 30px;*/
+}
+.text1{
+	width: 50%;
+word-break: break-word;
+margin-left:3rem;
+}
+	@media(max-width:768px) {
+		.text1{
+			width: 100%
+		}
+	.receipe-text {
+    width: auto;
+}
+.receipe-header{
+		margin:2vh;
+	
+	}
+	.rp-card{
+		margin:0px;
+	}
+	.rp-flex{
+	display: flex;
+}
+.rp{
+	margin-left: 0rem;
+}
+.mt-1{
+	margin-left: 0rem;
+}
+.rp-card{
+	padding: 1rem;
+}
+}
+</style>
